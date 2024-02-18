@@ -1,13 +1,16 @@
+
 {
-  "name": "nodejs-app",
+  "name": "api-server",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
-  "main": "index.js",
-  "author": "alphasec",
-  "license": "MIT",
-   "dependencies": {
-  },
+  "description": "A simple API server",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
-  }
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "author": "",
+  "license": "ISC"
 }
